@@ -9,7 +9,9 @@
 		"Plug 'junegunn/seoul256.vim'
 " FILE MANAGER
 " chadtree
-		"Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': 'python3 -m chadtree deps'}
+		"Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': 'python3 -m chadtree deps'
+" NerdTree
+		Plug 'scrooloose/nerdtree'
 
 " Surrond -> permite la edicion de ( abc ) -> <p>abc</p>
 		Plug 'tpope/vim-surround' 
