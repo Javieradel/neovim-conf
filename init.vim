@@ -23,7 +23,9 @@
 		Plug 'vim-airline/vim-airline-themes' "Themas para airline
 
 
-
+" MOSTRAR IDENTACION
+		Plug 'Yggdroot/indentLine'
+"
 " List ends here. Plugins become visible to Vim after this call.
 	
 	call plug#end()
@@ -40,5 +42,14 @@
 	let g:airline_powerline_fonts = 1 "Cargar Fuente Powerline y simbolos 
 
 	set noshowmode "no mostrar el modo actual (ya lo muestra en la barra de estado)
-	
+"
+
+" Indentacion
+" No mostrar en ciertos tipos de buffers y archivos
+	"let g:indentLine_fileTypeExclude = ['text', 'sh', 'help', 'terminal']
+	let g:indentLine_enabled = 1 "activa las lineas"
+	let g:indentLine_fileTypeExclude = ['text', 'help', 'terminal']
+	"let g:indentLine_bufNameExclude = ['NERD_tree.*', 'term:.*']
+"
+"
 
