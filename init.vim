@@ -23,4 +23,5 @@
 "THEME COLOR
 	set termguicolors "Activa true colors en la terminal
 	colorscheme onedark "Activa el tema onedark
-	
+
+
